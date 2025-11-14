@@ -206,22 +206,21 @@ The server gracefully handles errors and returns meaningful error messages:
 
 ### Testing
 
-The server includes a built-in test runner to validate the MCP server setup:
+The server includes Jest for developers to write unit tests:
 
 ```bash
-npm test
+npm test              # Run all tests
+npm run test:watch   # Watch mode (auto-rerun on changes)
+npm run test:coverage # Generate coverage report
 ```
 
-This runs 8 validation tests covering:
-- Server initialization and configuration
-- Tool registration (all 10 tools)
-- Response format validation
-- Error handling
-- Browser ID generation
-- URL validation
-- Workflow sequences
-
-For comprehensive testing information, see [UNIT_TESTING_GUIDE.md](UNIT_TESTING_GUIDE.md).
+**For Developers:**
+See [DEVELOPER_TESTING_GUIDE.md](DEVELOPER_TESTING_GUIDE.md) for:
+- How to write unit tests for your code
+- Example test files
+- Testing best practices
+- Jest configuration and commands
+- Running specific tests
 
 ## Development
 
