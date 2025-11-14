@@ -34,7 +34,7 @@
     "build": "tsc",
     "start": "node build/index.js",
     "dev": "tsc && node build/index.js",
-    "test": "node build/index.js"
+    "test": "node test-runner.cjs"
   },
   "files": [
     "build",
