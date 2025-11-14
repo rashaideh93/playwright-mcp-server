@@ -74,6 +74,24 @@ Alternatively, you can clone and build from source:
 
 ## Usage
 
+### Quick Start
+
+**For Users:**
+```bash
+npm install playwright-mcp-rashaideh93
+npx playwright-mcp-rashaideh93
+```
+
+**For Developers:**
+```bash
+git clone https://github.com/rashaideh93/playwright-mcp-server.git
+cd playwright-mcp-server
+npm install
+npm test        # Run validation tests
+npm run build   # Compile TypeScript
+npm start       # Start the server
+```
+
 ### Starting the Server
 
 ```bash
@@ -185,6 +203,25 @@ The server gracefully handles errors and returns meaningful error messages:
 - Navigation timeouts
 - Element not found errors
 - Playwright runtime errors
+
+### Testing
+
+The server includes a built-in test runner to validate the MCP server setup:
+
+```bash
+npm test
+```
+
+This runs 8 validation tests covering:
+- Server initialization and configuration
+- Tool registration (all 10 tools)
+- Response format validation
+- Error handling
+- Browser ID generation
+- URL validation
+- Workflow sequences
+
+For comprehensive testing information, see [UNIT_TESTING_GUIDE.md](UNIT_TESTING_GUIDE.md).
 
 ## Development
 
