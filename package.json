@@ -1,0 +1,28 @@
+{
+  "name": "playwright-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP Server for Playwright automation framework",
+  "type": "module",
+  "bin": {
+    "playwright-mcp": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "tsc && node build/index.js",
+    "test": "node build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.4.0",
+    "playwright": "^1.48.0",
+    "zod": "^3"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/inspector": "^0.17.2",
+    "@types/node": "^20",
+    "typescript": "^5.3.3"
+  }
+}
