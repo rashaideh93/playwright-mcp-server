@@ -4,5 +4,6 @@ tsconfig.json
 .github/
 *.log
 test-server.*
+test-runner.cjs
 .gitignore
 upload.bat
