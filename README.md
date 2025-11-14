@@ -39,11 +39,26 @@ The server exposes the following tools:
 - Node.js 17 or higher
 - npm or yarn package manager
 
-### Setup
+### Install from NPM (Recommended)
+
+The easiest way to get started is to install from NPM:
+
+```bash
+npm install playwright-mcp-rashaideh93
+```
+
+Then start the server:
+```bash
+npx playwright-mcp-rashaideh93
+```
+
+### Setup from Source
+
+Alternatively, you can clone and build from source:
 
 1. **Clone or download the project:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/rashaideh93/playwright-mcp-server.git
    cd playwright-mcp-server
    ```
 

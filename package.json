@@ -1,10 +1,34 @@
 {
-  "name": "playwright-mcp-server",
-  "version": "1.0.0",
-  "description": "MCP Server for Playwright automation framework",
+  "name": "playwright-mcp-rashaideh93",
+  "version": "1.0.1",
+  "description": "AI-powered automated QA testing with Playwright and Model Context Protocol",
+  "author": "Mohammad Rashaideh",
+  "license": "MIT",
+  "homepage": "https://github.com/rashaideh93/playwright-mcp-server",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rashaideh93/playwright-mcp-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rashaideh93/playwright-mcp-server/issues"
+  },
+  "keywords": [
+    "playwright",
+    "mcp",
+    "model-context-protocol",
+    "testing",
+    "automation",
+    "qa",
+    "browser-automation",
+    "ai"
+  ],
   "type": "module",
+  "main": "./build/index.js",
   "bin": {
     "playwright-mcp": "./build/index.js"
+  },
+  "engines": {
+    "node": ">=17.0.0"
   },
   "scripts": {
     "build": "tsc",
@@ -13,7 +37,9 @@
     "test": "node build/index.js"
   },
   "files": [
-    "build"
+    "build",
+    "README.md",
+    "LICENSE"
   ],
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.4.0",

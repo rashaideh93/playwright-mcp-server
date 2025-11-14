@@ -1,0 +1,8 @@
+src/
+tsconfig.json
+.vscode/
+.github/
+*.log
+test-server.*
+.gitignore
+upload.bat
